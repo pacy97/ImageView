@@ -19,8 +19,8 @@ public class ImageView extends AppCompatActivity  {
     @Override
     protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.startpage);
-        imv = (ImageView) findViewById(R.id.imageview);
+        setContentView(R.layout.imageview);
+        imv = (ImageView) findViewById(R.id.imagev);
         imv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
